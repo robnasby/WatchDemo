@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="HeaderLogo" translatesAutoresizingMaskIntoConstraints="NO" id="bcw-Kb-XLC">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="HeaderLogo" translatesAutoresizingMaskIntoConstraints="NO" id="bcw-Kb-XLC">
                                 <rect key="frame" x="216" y="30" width="168" height="23"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdJ-lI-QiC">
@@ -50,17 +51,41 @@
                                     <action selector="simulateRapidReordering_TouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YlU-Gi-OoI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Z1-kC-PZl">
+                                <rect key="frame" x="16" y="476" width="55" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1Gp-sZ-Afj"/>
+                                    <constraint firstAttribute="width" constant="55" id="pa5-fH-0sw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="21" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IeJ-zf-Sc5">
+                                <rect key="frame" x="16" y="505" width="568" height="75"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="G7Q-n6-Ob1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="IeJ-zf-Sc5" firstAttribute="top" secondItem="6Z1-kC-PZl" secondAttribute="bottom" constant="8" id="9bR-Q9-QlT"/>
                             <constraint firstAttribute="centerY" secondItem="HBg-0N-xOs" secondAttribute="centerY" constant="-80" id="AVg-dU-3eu"/>
                             <constraint firstItem="UN3-pT-ufw" firstAttribute="top" secondItem="TdJ-lI-QiC" secondAttribute="bottom" constant="40" id="C5m-n7-3jP"/>
                             <constraint firstAttribute="centerY" secondItem="UN3-pT-ufw" secondAttribute="centerY" constant="50" id="Gl3-va-GzH"/>
                             <constraint firstAttribute="centerX" secondItem="TdJ-lI-QiC" secondAttribute="centerX" id="H0f-7T-yrH"/>
+                            <constraint firstItem="6Z1-kC-PZl" firstAttribute="leading" secondItem="IeJ-zf-Sc5" secondAttribute="leading" id="H4m-IS-hLl"/>
                             <constraint firstItem="bcw-Kb-XLC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" symbolic="YES" id="Hk7-JJ-O3A"/>
                             <constraint firstItem="bcw-Kb-XLC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="v1P-W8-kEg"/>
                             <constraint firstAttribute="centerX" secondItem="UN3-pT-ufw" secondAttribute="centerX" id="VRC-r3-JJN"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="IeJ-zf-Sc5" secondAttribute="bottom" constant="20" id="bfu-W8-hk3"/>
+                            <constraint firstItem="IeJ-zf-Sc5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="qJu-Ee-SgI"/>
                             <constraint firstAttribute="centerX" secondItem="bcw-Kb-XLC" secondAttribute="centerX" id="vv5-Or-W4z"/>
+                            <constraint firstItem="IeJ-zf-Sc5" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="xX5-1I-fDQ"/>
                             <constraint firstAttribute="centerX" secondItem="HBg-0N-xOs" secondAttribute="centerX" id="ygg-Dn-J1s"/>
                         </constraints>
                     </view>
