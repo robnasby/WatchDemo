@@ -1,0 +1,22 @@
+# User-specific XCode files.
+UserInterfaceState.xcuserstate
+xcuserdata
+**/project.xcworkspace/xcshareddata/*.xccheckout
+
+# System files.
+.DS_Store
+
+# Merge conflict files.
+*.orig
+*.local
+*.remote
+*.base
+
+# Frank automation build files.
+Frank/frankified_build/*
+/build/*
+
+# Preview generation files
+PreviewGenerator/data/*
+PreviewGenerator/images/*
+PreviewGenerator/logs/*
