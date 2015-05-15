@@ -33,14 +33,41 @@
 
 - (IBAction)sendOrderConfirmationNotification_TouchUpInside:(id)sender {
     [self appendStatusMessage:@"Sending an order confirmation notification..."];
+    [self submitLocalNotificationWithMessage:@"Your order of 2 packs of hex nuts was received."
+                                       title:@"Order Received"
+                                      action:@"View Details"
+                                       delay:3.0];
 }
 
 - (IBAction)sendPackageDeliveryNotification_TouchUpInside:(id)sender {
     [self appendStatusMessage:@"Sending a package delivery notification..."];
+    [self submitLocalNotificationWithMessage:@"You order of 3 paint brushes and 2 other items was recieved by Joanna"
+                                       title:@"Order Delivered"
+                                      action:@"View Details"
+                                       delay:5.0];
 }
 
 - (IBAction)simulateRapidReordering_TouchUpInside:(id)sender {
     [self appendStatusMessage:@"Simulating a rapid reordering interaction..."];
+}
+
+
+#pragma mark - Notification Helpers
+
+- (void)submitLocalNotificationWithMessage:(NSString *)message
+                                     title:(NSString *)title
+                                    action:(NSString *)action
+                                     delay:(NSTimeInterval)delay {
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    
+    notification.fireDate = [NSDate dateWithTimeIntervalSinceNow:delay];
+    notification.timeZone = [NSTimeZone defaultTimeZone];
+    notification.alertTitle = title;
+    notification.alertBody = message;
+    notification.alertAction = action;
+    notification.soundName = UILocalNotificationDefaultSoundName;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:notification];
 }
 
 
