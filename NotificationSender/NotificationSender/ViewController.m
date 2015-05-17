@@ -8,20 +8,34 @@
 
 #import "ViewController.h"
 
+#define TOKEN_TEXT_VIEW_TAG 12
+
 @interface ViewController ()
+
+@property (weak, nonatomic) UITextView *tokenTextView;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+#pragma mark - View Lifecycle
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+
+    self.tokenTextView = (UITextView *)[self.view viewWithTag:TOKEN_TEXT_VIEW_TAG];
+    self.tokenTextView.layer.borderColor = [[UIColor grayColor] CGColor];
+    self.tokenTextView.layer.borderWidth = 1.0;
+    self.tokenTextView.layer.cornerRadius = 5.0;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+#pragma mark - Action Outlets
+
+- (IBAction)sendOrderConfirmationButton_TouchUpInside:(id)sender {
+}
+
+- (IBAction)sendPackageDeliveryButton_TouchUpInside:(id)sender {
 }
 
 @end
