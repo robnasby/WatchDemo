@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="22" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZG-Gw-AEc">
-                                <rect key="frame" x="16" y="532" width="568" height="48"/>
+                                <rect key="frame" x="16" y="532" width="512" height="48"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="3BQ-gd-YlA"/>
@@ -36,14 +36,29 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwu-pO-Uvc">
+                                <rect key="frame" x="536" y="541" width="48" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="Eto-OQ-P1e"/>
+                                    <constraint firstAttribute="height" constant="30" id="uwp-Zz-ASu"/>
+                                </constraints>
+                                <state key="normal" title="Text">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="textTokenButton_TouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="a9p-oc-D1w"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="sZG-Gw-AEc" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Nud-BZ-fi5"/>
+                            <constraint firstItem="qwu-pO-Uvc" firstAttribute="leading" secondItem="sZG-Gw-AEc" secondAttribute="trailing" constant="8" id="6IT-Ob-QYK"/>
+                            <constraint firstItem="qwu-pO-Uvc" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Rc5-Xm-CHw"/>
                             <constraint firstItem="vfO-Bi-m5c" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="TQj-aG-VB7"/>
                             <constraint firstItem="sZG-Gw-AEc" firstAttribute="top" secondItem="vfO-Bi-m5c" secondAttribute="bottom" id="buL-FM-zBC"/>
                             <constraint firstItem="sZG-Gw-AEc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="l5d-Ms-r8V"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="sZG-Gw-AEc" secondAttribute="bottom" constant="20" id="xSQ-HR-djT"/>
+                            <constraint firstItem="sZG-Gw-AEc" firstAttribute="centerY" secondItem="qwu-pO-Uvc" secondAttribute="centerY" id="yB3-3S-qUW"/>
                         </constraints>
                     </view>
                 </viewController>

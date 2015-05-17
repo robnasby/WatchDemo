@@ -32,6 +32,26 @@
 }
 
 
+#pragma mark - Action Outlets
+
+- (IBAction)textTokenButton_TouchUpInside:(id)sender
+{
+    //check if the device can send text messages
+    if(![MFMessageComposeViewController canSendText]) {
+        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Your device cannot send text messages" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+        return;
+    }
+    
+    MFMessageComposeViewController *messageController = [[MFMessageComposeViewController alloc] init];
+    messageController.messageComposeDelegate = self;
+    [messageController setBody:self.tokenTextView.text];
+    
+    // Present message view controller on screen
+    [self presentViewController:messageController animated:YES completion:nil];
+}
+
+
 #pragma mark - Notification Center Handlers
 
 - (void)registerForNotifications
@@ -48,6 +68,26 @@
     NSString *token = [userInfo objectForKey:REMOTE_NOTIFICATION_TOKEN_RECEIVED_PAYLOAD_TOKEN];
 
     self.tokenTextView.text = token;
+}
+
+
+#pragma mark - MFMessageComposeViewControllerDelegate Handlers
+
+- (void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult) result {
+    switch (result) {
+        case MessageComposeResultCancelled:
+            break;
+            
+        case MessageComposeResultFailed:
+            break;
+            
+        case MessageComposeResultSent:
+            break;
+            
+        default: break;
+    }
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
