@@ -36,6 +36,18 @@
     self.tokenTextView.layer.cornerRadius = 5.0;
 }
 
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    for (id subview in [self.view subviews]) {
+        if ([subview isKindOfClass:[UITextView class]]) {
+            UITextView *textView = subview;
+            if ([textView isFirstResponder]) {
+                [textView resignFirstResponder];
+            }
+        }
+    }
+}
+
 
 #pragma mark - Action Outlets
 

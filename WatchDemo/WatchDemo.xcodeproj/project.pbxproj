@@ -90,6 +90,7 @@
 		F6FC34771B0A474500104E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6FC34791B0A474500104E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		F6FC347B1B0A474500104E92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FFD004B1B086AF7004E4575 /* NotificationCenterKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCenterKeys.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +145,7 @@
 			children = (
 				1FFD00201B085C21004E4575 /* AppDelegate.h */,
 				1FFD00211B085C21004E4575 /* AppDelegate.m */,
+				1FFD004B1B086AF7004E4575 /* NotificationCenterKeys.h */,
 				1FFD00231B085C21004E4575 /* ViewController.h */,
 				1FFD00241B085C21004E4575 /* ViewController.m */,
 				1FFD00261B085C21004E4575 /* Main.storyboard */,

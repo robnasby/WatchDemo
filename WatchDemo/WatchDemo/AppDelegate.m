@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NotificationCenterKeys.h"
 
 @interface AppDelegate ()
 
@@ -44,6 +45,9 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)token
           [NSBundle.mainBundle bundleIdentifier],
           [self modeString],
           token);
+    
+    NSDictionary *userInfo = @{REMOTE_NOTIFICATION_TOKEN_RECEIVED_PAYLOAD_TOKEN: [token description]};
+    [[NSNotificationCenter defaultCenter] postNotificationName:REMOTE_NOTIFICATION_TOKEN_RECEIVED object:self userInfo:userInfo];
 }
 
 - (void)application:(UIApplication *)application
