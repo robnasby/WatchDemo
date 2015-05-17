@@ -8,10 +8,12 @@
 
 #import "ViewController.h"
 
+#define STATUS_MESSAGES_TEXT_VIEW_TAG 22
 #define TOKEN_TEXT_VIEW_TAG 12
 
 @interface ViewController ()
 
+@property (weak, nonatomic) UITextView *statusMessagesTextView;
 @property (weak, nonatomic) UITextView *tokenTextView;
 
 @end
@@ -22,6 +24,11 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    
+    self.statusMessagesTextView = (UITextView *)[self.view viewWithTag:STATUS_MESSAGES_TEXT_VIEW_TAG];
+    self.statusMessagesTextView.layer.borderColor = [[UIColor grayColor] CGColor];
+    self.statusMessagesTextView.layer.borderWidth = 1.0;
+    self.statusMessagesTextView.layer.cornerRadius = 5.0;
 
     self.tokenTextView = (UITextView *)[self.view viewWithTag:TOKEN_TEXT_VIEW_TAG];
     self.tokenTextView.layer.borderColor = [[UIColor grayColor] CGColor];
@@ -33,9 +40,19 @@
 #pragma mark - Action Outlets
 
 - (IBAction)sendOrderConfirmationButton_TouchUpInside:(id)sender {
+    [self appendStatusMessage:@"Sending order confirmation notification..."];
 }
 
 - (IBAction)sendPackageDeliveryButton_TouchUpInside:(id)sender {
+    [self appendStatusMessage:@"Sending package delivery notification..."];
+}
+
+#pragma mark - Status Message Helpers
+
+- (void)appendStatusMessage:(NSString *)message {
+    self.statusMessagesTextView.text = [NSString stringWithFormat:@"%@\n%@",
+                                        message,
+                                        self.statusMessagesTextView.text];
 }
 
 @end

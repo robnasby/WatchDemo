@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -68,20 +69,43 @@
                                     <action selector="sendPackageDeliveryButton_TouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6fj-te-5k4"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="22" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fa-el-NrU">
+                                <rect key="frame" x="16" y="484" width="568" height="96"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="kSn-aY-ldU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7V4-qf-dDE">
+                                <rect key="frame" x="16" y="463" width="48" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="HVE-lG-Sq6"/>
+                                    <constraint firstAttribute="width" constant="48" id="rCr-AX-BLg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4C8-YZ-wv8" firstAttribute="top" secondItem="JVi-bd-dl7" secondAttribute="bottom" id="4WO-gI-qUc"/>
                             <constraint firstItem="4C8-YZ-wv8" firstAttribute="top" secondItem="JVi-bd-dl7" secondAttribute="bottom" id="4qI-yp-neR"/>
                             <constraint firstAttribute="centerY" secondItem="Yzy-iy-RrU" secondAttribute="centerY" constant="40" id="5aG-Hf-FX9"/>
+                            <constraint firstItem="4C8-YZ-wv8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="JWz-Ir-5L5"/>
                             <constraint firstItem="Yzy-iy-RrU" firstAttribute="top" secondItem="t42-X6-rjc" secondAttribute="bottom" constant="12" id="MwF-77-xIb"/>
-                            <constraint firstItem="JVi-bd-dl7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="XQ3-SA-jIA"/>
-                            <constraint firstItem="4C8-YZ-wv8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="jb7-Y1-my9"/>
+                            <constraint firstItem="JVi-bd-dl7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="gzK-CA-CR4"/>
+                            <constraint firstItem="7V4-qf-dDE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="igc-rP-DLd"/>
+                            <constraint firstItem="3Fa-el-NrU" firstAttribute="top" secondItem="7V4-qf-dDE" secondAttribute="bottom" id="l8W-La-lHC"/>
+                            <constraint firstItem="3Fa-el-NrU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="n8y-t9-ku9"/>
+                            <constraint firstItem="4C8-YZ-wv8" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="o7K-1F-ku6"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3Fa-el-NrU" secondAttribute="bottom" constant="20" id="oK1-MI-cMG"/>
                             <constraint firstAttribute="centerX" secondItem="AoZ-9H-IhV" secondAttribute="centerX" id="odb-QD-aGm"/>
                             <constraint firstItem="Yzy-iy-RrU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="r1c-cH-VzF"/>
                             <constraint firstItem="t42-X6-rjc" firstAttribute="top" secondItem="4C8-YZ-wv8" secondAttribute="bottom" constant="24" id="tHR-CA-KWN"/>
                             <constraint firstItem="AoZ-9H-IhV" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="wql-w6-87C"/>
-                            <constraint firstItem="4C8-YZ-wv8" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="xUL-yK-hTu"/>
+                            <constraint firstItem="3Fa-el-NrU" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="x2g-DW-VSl"/>
                             <constraint firstItem="t42-X6-rjc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="zBn-bn-6fI"/>
                         </constraints>
                     </view>
