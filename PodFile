@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+
+workspace 'WatchDemo'
+xcodeproj 'NotificationSender/NotificationSender.xcodeproj'
+
+pod 'NWPusher', '~> 0.6.0'

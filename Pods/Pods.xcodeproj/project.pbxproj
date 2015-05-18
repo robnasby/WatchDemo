@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FF8AF0F0E9AB09A49F9674 /* Pods-NWPusher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E892994A3A3FD6EB9F7094BB /* Pods-NWPusher-dummy.m */; };
+		22F2D3015A6F690170A53588 /* NWSecTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A56B50F3AFA85A200F2CB6F /* NWSecTools.m */; };
+		29DFC2C284AFCAB5115A81C3 /* NWHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7132D7DBAB2B2AA9C8A1C8 /* NWHub.m */; };
+		398C9761CA4F00ABD9D7CD14 /* NWPushFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC3B94B01B808A60CEA6DB9 /* NWPushFeedback.h */; };
+		63454CF62EAC4A0680FC4B1E /* NWPushFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ED50EE55E1C5BD3E50488 /* NWPushFeedback.m */; };
+		6452C314EF4DAAB952E5A2D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A4D4670AF91876ECA34C6D /* Foundation.framework */; };
+		7DFBCB56176885C1712BBA92 /* NWNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1550B7DE1D1BFEA66E5497 /* NWNotification.h */; };
+		87FA15234049A96DE7F118BB /* NWNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A57E75FB30EFDA55CF6E5 /* NWNotification.m */; };
+		8D4DB5F1A8350FA3B8A34E89 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D2F5371B363F9385F27EF9 /* Security.framework */; };
+		9E5A6E13D65E43FE4CCA8277 /* NWSSLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FEEFB3F518BE02A9451B8BE /* NWSSLConnection.h */; };
+		A7B9B843BDF58B4944F17943 /* NWHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 53619593BBB8EF7335748852 /* NWHub.h */; };
+		ABF1072D9E2591FC683AD208 /* NWSSLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B72FF155F607CA7F057F10 /* NWSSLConnection.m */; };
+		B0D9A5A30BD0FAD916E209E4 /* NWType.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC044E03238F53BFB210967 /* NWType.m */; };
+		B8917B77628871871F527A10 /* NWSecTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 9526C0490ECA472B6878EFD7 /* NWSecTools.h */; };
+		BD28204B3BE4E7E99652A274 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870421EF1D29AB7254CFB13 /* Pods-dummy.m */; };
+		D76F8306C0C5FA5BE94A328A /* NWType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0891FE392C2A11E1E2FDE580 /* NWType.h */; };
+		D99ED895BA0304E2FB6B7E92 /* NWPusher.m in Sources */ = {isa = PBXBuildFile; fileRef = F90D86ED3CCAE9B476F7897A /* NWPusher.m */; };
+		F80F4AE09F065F64D2A0A16F /* NWPusher.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F8225216644A44E4EC5EF1 /* NWPusher.h */; };
+		FC266469FCAE520D83BC9533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A4D4670AF91876ECA34C6D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE27431A56A9F1CDDCDA4846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4CAB65C716B7A777E03342 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B55AA14CE4F5BD83F02A2F;
+			remoteInfo = "Pods-NWPusher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0870421EF1D29AB7254CFB13 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		0891FE392C2A11E1E2FDE580 /* NWType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWType.h; path = Classes/NWType.h; sourceTree = "<group>"; };
+		12B72FF155F607CA7F057F10 /* NWSSLConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWSSLConnection.m; path = Classes/NWSSLConnection.m; sourceTree = "<group>"; };
+		155F3FDC7D42F8DBAB3E3074 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		202CB12FECA1F3881E9BBB7C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		2612145EDE25A3A7CD3BEA6E /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		3A4C9DA373DAA83C02C706DF /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		3D1550B7DE1D1BFEA66E5497 /* NWNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWNotification.h; path = Classes/NWNotification.h; sourceTree = "<group>"; };
+		40C4E59DBAB96020BE8C84F0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		4AFF4CD74FB52D708E3693D8 /* Pods-NWPusher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NWPusher.xcconfig"; sourceTree = "<group>"; };
+		53619593BBB8EF7335748852 /* NWHub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWHub.h; path = Classes/NWHub.h; sourceTree = "<group>"; };
+		5A56B50F3AFA85A200F2CB6F /* NWSecTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWSecTools.m; path = Classes/NWSecTools.m; sourceTree = "<group>"; };
+		5A6EE694E5CCFD2F33D18344 /* Pods-NWPusher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NWPusher-prefix.pch"; sourceTree = "<group>"; };
+		6E7132D7DBAB2B2AA9C8A1C8 /* NWHub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWHub.m; path = Classes/NWHub.m; sourceTree = "<group>"; };
+		6FEEFB3F518BE02A9451B8BE /* NWSSLConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWSSLConnection.h; path = Classes/NWSSLConnection.h; sourceTree = "<group>"; };
+		781ED50EE55E1C5BD3E50488 /* NWPushFeedback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWPushFeedback.m; path = Classes/NWPushFeedback.m; sourceTree = "<group>"; };
+		7DC3B94B01B808A60CEA6DB9 /* NWPushFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWPushFeedback.h; path = Classes/NWPushFeedback.h; sourceTree = "<group>"; };
+		8E7A57E75FB30EFDA55CF6E5 /* NWNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWNotification.m; path = Classes/NWNotification.m; sourceTree = "<group>"; };
+		90D2F5371B363F9385F27EF9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		9526C0490ECA472B6878EFD7 /* NWSecTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWSecTools.h; path = Classes/NWSecTools.h; sourceTree = "<group>"; };
+		A6A4D4670AF91876ECA34C6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BBC044E03238F53BFB210967 /* NWType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWType.m; path = Classes/NWType.m; sourceTree = "<group>"; };
+		CEC2E7A732B2B9D0200E8295 /* libPods-NWPusher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NWPusher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28699A7FD373E28463956A4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D803831E6C0642CCAD404E53 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E892994A3A3FD6EB9F7094BB /* Pods-NWPusher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NWPusher-dummy.m"; sourceTree = "<group>"; };
+		EA6E5D944D9CEDFA668FE90C /* Pods-NWPusher-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NWPusher-Private.xcconfig"; sourceTree = "<group>"; };
+		F5F8225216644A44E4EC5EF1 /* NWPusher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWPusher.h; path = Classes/NWPusher.h; sourceTree = "<group>"; };
+		F90D86ED3CCAE9B476F7897A /* NWPusher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWPusher.m; path = Classes/NWPusher.m; sourceTree = "<group>"; };
+		FDA6B84500DFC8A44F31BF65 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2499DF5978F90424EDC84DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC266469FCAE520D83BC9533 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5F28473D15CD5F99BDB19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6452C314EF4DAAB952E5A2D6 /* Foundation.framework in Frameworks */,
+				8D4DB5F1A8350FA3B8A34E89 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11123E92916BB9DB426E7772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F14A5CD2F35D340895E20B93 /* NWPusher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27AAA8F6C98EC51D54381483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C50F43335C2AA8C3F82CF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B586C8E4919E08F6732A25B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF994B554CB22065EFB35020 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78199116BEE27A2B71E285A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D803831E6C0642CCAD404E53 /* libPods.a */,
+				CEC2E7A732B2B9D0200E8295 /* libPods-NWPusher.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8C50F43335C2AA8C3F82CF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4D4670AF91876ECA34C6D /* Foundation.framework */,
+				90D2F5371B363F9385F27EF9 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE7F90E4A260DDA5B94A9E55 = {
+			isa = PBXGroup;
+			children = (
+				D28699A7FD373E28463956A4 /* Podfile */,
+				27AAA8F6C98EC51D54381483 /* Frameworks */,
+				11123E92916BB9DB426E7772 /* Pods */,
+				78199116BEE27A2B71E285A5 /* Products */,
+				6B586C8E4919E08F6732A25B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF994B554CB22065EFB35020 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				155F3FDC7D42F8DBAB3E3074 /* Pods-acknowledgements.markdown */,
+				FDA6B84500DFC8A44F31BF65 /* Pods-acknowledgements.plist */,
+				0870421EF1D29AB7254CFB13 /* Pods-dummy.m */,
+				3A4C9DA373DAA83C02C706DF /* Pods-environment.h */,
+				2612145EDE25A3A7CD3BEA6E /* Pods-resources.sh */,
+				202CB12FECA1F3881E9BBB7C /* Pods.debug.xcconfig */,
+				40C4E59DBAB96020BE8C84F0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		EB264A57285D4783DC97E0F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AFF4CD74FB52D708E3693D8 /* Pods-NWPusher.xcconfig */,
+				EA6E5D944D9CEDFA668FE90C /* Pods-NWPusher-Private.xcconfig */,
+				E892994A3A3FD6EB9F7094BB /* Pods-NWPusher-dummy.m */,
+				5A6EE694E5CCFD2F33D18344 /* Pods-NWPusher-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-NWPusher";
+			sourceTree = "<group>";
+		};
+		F14A5CD2F35D340895E20B93 /* NWPusher */ = {
+			isa = PBXGroup;
+			children = (
+				53619593BBB8EF7335748852 /* NWHub.h */,
+				6E7132D7DBAB2B2AA9C8A1C8 /* NWHub.m */,
+				3D1550B7DE1D1BFEA66E5497 /* NWNotification.h */,
+				8E7A57E75FB30EFDA55CF6E5 /* NWNotification.m */,
+				7DC3B94B01B808A60CEA6DB9 /* NWPushFeedback.h */,
+				781ED50EE55E1C5BD3E50488 /* NWPushFeedback.m */,
+				F5F8225216644A44E4EC5EF1 /* NWPusher.h */,
+				F90D86ED3CCAE9B476F7897A /* NWPusher.m */,
+				6FEEFB3F518BE02A9451B8BE /* NWSSLConnection.h */,
+				12B72FF155F607CA7F057F10 /* NWSSLConnection.m */,
+				9526C0490ECA472B6878EFD7 /* NWSecTools.h */,
+				5A56B50F3AFA85A200F2CB6F /* NWSecTools.m */,
+				0891FE392C2A11E1E2FDE580 /* NWType.h */,
+				BBC044E03238F53BFB210967 /* NWType.m */,
+				EB264A57285D4783DC97E0F9 /* Support Files */,
+			);
+			path = NWPusher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A4A0C4409195DF633B530AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B9B843BDF58B4944F17943 /* NWHub.h in Headers */,
+				7DFBCB56176885C1712BBA92 /* NWNotification.h in Headers */,
+				398C9761CA4F00ABD9D7CD14 /* NWPushFeedback.h in Headers */,
+				F80F4AE09F065F64D2A0A16F /* NWPusher.h in Headers */,
+				9E5A6E13D65E43FE4CCA8277 /* NWSSLConnection.h in Headers */,
+				B8917B77628871871F527A10 /* NWSecTools.h in Headers */,
+				D76F8306C0C5FA5BE94A328A /* NWType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A2B55AA14CE4F5BD83F02A2F /* Pods-NWPusher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8910726B6602F6FB1BAEA7B6 /* Build configuration list for PBXNativeTarget "Pods-NWPusher" */;
+			buildPhases = (
+				14A626F77DE7173849FF9207 /* Sources */,
+				6E5F28473D15CD5F99BDB19A /* Frameworks */,
+				3A4A0C4409195DF633B530AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NWPusher";
+			productName = "Pods-NWPusher";
+			productReference = CEC2E7A732B2B9D0200E8295 /* libPods-NWPusher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA14967EC88E61EE47B0DD5E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFA4A62402CCAE3D0319756 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				F29F4403A9E8D7BEA9C40C5C /* Sources */,
+				2499DF5978F90424EDC84DAA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2AB975C830FD9CBE311DD8A /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = D803831E6C0642CCAD404E53 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4CAB65C716B7A777E03342 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = EA19D03566FC0AC572D6D817 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE7F90E4A260DDA5B94A9E55;
+			productRefGroup = 78199116BEE27A2B71E285A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA14967EC88E61EE47B0DD5E /* Pods */,
+				A2B55AA14CE4F5BD83F02A2F /* Pods-NWPusher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A626F77DE7173849FF9207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DFC2C284AFCAB5115A81C3 /* NWHub.m in Sources */,
+				87FA15234049A96DE7F118BB /* NWNotification.m in Sources */,
+				63454CF62EAC4A0680FC4B1E /* NWPushFeedback.m in Sources */,
+				D99ED895BA0304E2FB6B7E92 /* NWPusher.m in Sources */,
+				ABF1072D9E2591FC683AD208 /* NWSSLConnection.m in Sources */,
+				22F2D3015A6F690170A53588 /* NWSecTools.m in Sources */,
+				B0D9A5A30BD0FAD916E209E4 /* NWType.m in Sources */,
+				05FF8AF0F0E9AB09A49F9674 /* Pods-NWPusher-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29F4403A9E8D7BEA9C40C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD28204B3BE4E7E99652A274 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2AB975C830FD9CBE311DD8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NWPusher";
+			target = A2B55AA14CE4F5BD83F02A2F /* Pods-NWPusher */;
+			targetProxy = DE27431A56A9F1CDDCDA4846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A281B2B1181E8DDFC4E64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2BA716CD0D58FD2F07FE59CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C4E59DBAB96020BE8C84F0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		41BDF1106511F217EA05344D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6E5D944D9CEDFA668FE90C /* Pods-NWPusher-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NWPusher/Pods-NWPusher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E6ECBD0893B785E6ECAD780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98E3973E357DB6D6B125B4D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6E5D944D9CEDFA668FE90C /* Pods-NWPusher-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NWPusher/Pods-NWPusher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F58341FDFB5446DC7A482531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202CB12FECA1F3881E9BBB7C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CFA4A62402CCAE3D0319756 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58341FDFB5446DC7A482531 /* Debug */,
+				2BA716CD0D58FD2F07FE59CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8910726B6602F6FB1BAEA7B6 /* Build configuration list for PBXNativeTarget "Pods-NWPusher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E3973E357DB6D6B125B4D0 /* Debug */,
+				41BDF1106511F217EA05344D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA19D03566FC0AC572D6D817 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A281B2B1181E8DDFC4E64A /* Debug */,
+				4E6ECBD0893B785E6ECAD780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D4CAB65C716B7A777E03342 /* Project object */;
+}

@@ -1,0 +1,10 @@
+PODS:
+  - NWPusher (0.6.3)
+
+DEPENDENCIES:
+  - NWPusher (~> 0.6.0)
+
+SPEC CHECKSUMS:
+  NWPusher: 9081e9c7b6a042062e43ce80e968abfd01521421
+
+COCOAPODS: 0.37.1
