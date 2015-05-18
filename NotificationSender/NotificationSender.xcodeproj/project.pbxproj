@@ -15,6 +15,7 @@
 		1FFDFFF81B084C5A004E4575 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFDFFF71B084C5A004E4575 /* Images.xcassets */; };
 		1FFDFFFB1B084C5A004E4575 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFDFFF91B084C5A004E4575 /* LaunchScreen.xib */; };
 		8023282E45721823AD77EAA9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1A8C465E08E6A638A73B6F /* libPods.a */; };
+		F6FC345A1B0A2C6600104E92 /* WatchDemo - Push Notification - Development.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F6FC34591B0A2C0E00104E92 /* WatchDemo - Push Notification - Development.p12 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1FFDFFFA1B084C5A004E4575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		41E8D807D03B91BA3CE9A789 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9E1A8C465E08E6A638A73B6F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FC34591B0A2C0E00104E92 /* WatchDemo - Push Notification - Development.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WatchDemo - Push Notification - Development.p12"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			children = (
 				1FFDFFEB1B084C5A004E4575 /* Info.plist */,
 				1FFDFFEC1B084C5A004E4575 /* main.m */,
+				F6FC34591B0A2C0E00104E92 /* WatchDemo - Push Notification - Development.p12 */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FC345A1B0A2C6600104E92 /* WatchDemo - Push Notification - Development.p12 in Resources */,
 				1FFDFFF61B084C5A004E4575 /* Main.storyboard in Resources */,
 				1FFDFFFB1B084C5A004E4575 /* LaunchScreen.xib in Resources */,
 				1FFDFFF81B084C5A004E4575 /* Images.xcassets in Resources */,
